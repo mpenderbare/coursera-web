@@ -28,7 +28,6 @@ h1 {
 .section_title {
     font-size: 1.25em;
     text-align: center;
-    background-color: white;
     position: absolute;
     top: 0;
     right: 0;
@@ -37,17 +36,32 @@ h1 {
     height: 30px;
 }
 
+#chicken_title {
+    background-color: lightcoral;
+    color: black;
+}
+
+#beef_title {
+    background-color: brown;
+    color: white;
+}
+
+#sushi_title {
+    background-color: darkkhaki;
+    color: black;
+}
+
 /* Simple Responsive Framework. */
 .row {
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .row > div {
-    background-color: gray;
     position: relative;
-    border: 1px solid green;
+    background-color: grey;
+    border: 1px solid black;
 }
 
 .section_text {
@@ -58,8 +72,6 @@ h1 {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      position: relative;
-      border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -103,8 +115,6 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
-      position: relative;
-      border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
