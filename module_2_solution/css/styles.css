@@ -58,14 +58,15 @@ h1 {
     padding-right: 10px;
 }
 
-.row > div {
+.row > div > div {
     position: relative;
     background-color: grey;
     border: 1px solid black;
+    margin: 10px;
 }
 
 .section_text {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 /********** Desktop view **********/
