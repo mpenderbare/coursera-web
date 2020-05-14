@@ -66,7 +66,7 @@ h1 {
 }
 
 .section_text {
-    margin-top: 40px;
+    margin: 40px 10px 5px;
 }
 
 /********** Desktop view **********/
@@ -155,12 +155,10 @@ h1 {
   }
 }
 
-/*!********** Tablet view **********!*/
-/*@media (max-width: 767px) {*/
-/*    .col-sm-12 {*/
-/*        float: left;*/
-/*        position: relative;*/
-/*        border: 1px solid green;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
+/*!********** Stopping section title overflow **********!*/
+@media (max-width: 191px) {
+    .section_title {
+        position: relative;
+        width: 100%;
+    }
+}
